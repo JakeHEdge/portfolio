@@ -235,7 +235,7 @@ h2{
 .tags.big span{ padding: 8px 12px; }
 
 .shot{
-  width: 100%;
+  width: 50%;
   margin-top: 14px;
   border-radius: 12px;
   border: 1px solid rgba(255,255,255,0.08);
