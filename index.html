@@ -1,48 +1,256 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Jake Edge - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jake Harry Edge — Portfolio</title>
+  <meta name="description" content="Jake Harry Edge — Computer Science student. Full-stack projects, Power BI dashboards, and disciplined execution. Seeking Graduate Software Developer roles (Sep 2026)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<h1>Jake Edge</h1>
-<p>Graduate Software Developer 2026</p>
+  <div class="bg-grid" aria-hidden="true"></div>
 
-<p>
-<a href="https://github.com/https://github.com/JakeHEdge">GitHub</a> |
-<a href="www.linkedin.com/in/jake-edge-8b0589268">LinkedIn</a>
-</p>  
-<p>GitHub: JakeHEdge | LinkedIn: Jake Edge</p>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <div class="nav__left">
+          <span class="mark"></span>
+          <span class="nav__name">Jake Harry Edge</span>
+        </div>
 
-<p>
-Final-year Computer Science student building full-stack web applications and software projects.
-Seeking a Graduate Software Developer role starting September 2026.
-</p>
-  
-<h2>Projects</h2>
-  
-<div class="project">
-  <h3>College Registration System</h3>
-  <p>Java application for managing student records and course enrolments with MySQL database integration. Demonstrates CRUD operations and object-oriented programming.</p>
-  <p><b>Tech:</b>Java, MySQL, SQL, OOP</p>
-  <a href="https://github.com/JakeHEdge/college-registration-system">Github Repo</a>
-  <img src="College Reg SC.png" width="50%">
-</div>  
-  
-<div class="project">
-  <h3>Habit Tracker PWA</h3>
-  <p>Progressive Web App designed to track habits and productivity, featuring task tracking and responsive design. As well as CRUD database integration.</p>
-  <p><b>Tech:</b> JavaScript, HTML, CSS, MySQL</p>
-  <a href="#">GitHub Repo</a>
-</div>
-  
-<div class="project">
-  <h3>Bookstore Web App</h3>
-  <p>Full-stack web application with product listings and shopping cart functionality, demonstrating database integration and front-end development.</p>
-  <p><b>Tech:</b> HTML, CSS, JavaScript, SQL</p>
-  <a href="https://github.com/JakeHEdge/booked-solid-pwa">GitHub Repo</a>
-</div>
+        <div class="nav__right">
+          <a class="nav__link" href="#projects">Projects</a>
+          <a class="nav__link" href="#skills">Skills</a>
+          <a class="nav__link" href="#contact">Contact</a>
+        </div>
+      </nav>
 
+      <section class="hero">
+        <div class="hero__left">
+          <div class="pill">GRADUATE 2026 · LOCKED IN</div>
+          <h1 class="hero__title">Graduate Software Developer</h1>
+          <p class="hero__subtitle">
+            Final-year Computer Science student building <strong>full-stack web apps</strong>, <strong>data-driven dashboards</strong>,
+            and clean systems with disciplined execution.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#projects">View Projects</a>
+            <a class="btn btn--ghost" href="mailto:jakehedge04@gmail.com">Email Me</a>
+          </div>
+
+          <div class="hero__links">
+            <a class="link" target="_blank" rel="noopener" href="https://github.com/JakeHEdge">GitHub</a>
+            <span class="dot">•</span>
+            <a class="link" target="_blank" rel="noopener" href="https://www.linkedin.com/in/jake-edge-8b0589268/">LinkedIn</a>
+          </div>
+
+          <div class="mini">
+            Seeking <strong>Graduate Software Developer</strong> roles starting <strong>September 2026</strong>.
+          </div>
+        </div>
+
+        <div class="hero__right">
+          <div class="stat">
+            <div class="stat__label">Focus</div>
+            <div class="stat__value">Software • BI • AI Topics</div>
+          </div>
+          <div class="stat">
+            <div class="stat__label">Strength</div>
+            <div class="stat__value">Execution + Clean Delivery</div>
+          </div>
+          <div class="stat">
+            <div class="stat__label">Stack</div>
+            <div class="stat__value">JS • Java • SQL • Power BI</div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </header>
+
+  <main>
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Projects</h2>
+          <p class="section__desc">Selected work — built with production mindset, not coursework vibes.</p>
+        </div>
+
+        <div class="grid">
+          <!-- Project 1 -->
+          <article class="card">
+            <div class="card__top">
+              <h3 class="card__title">College Registration System</h3>
+              <p class="card__desc">
+                Java application for managing student records and enrolments with a MySQL backend.
+                Demonstrates role-based workflows, CRUD operations and OOP structure.
+              </p>
+
+              <ul class="bullets">
+                <li>CRUD for students/courses</li>
+                <li>MySQL integration (relational structure)</li>
+                <li>Clean OOP design</li>
+              </ul>
+
+              <div class="chips">
+                <span class="chip">Java</span>
+                <span class="chip">MySQL</span>
+                <span class="chip">SQL</span>
+                <span class="chip">OOP</span>
+              </div>
+
+              <div class="actions">
+                <a class="action" target="_blank" rel="noopener" href="https://github.com/JakeHEdge/college-registration-system">GitHub Repo</a>
+              </div>
+            </div>
+
+            <div class="card__media">
+              <!-- Keep your filename exactly or update it -->
+              <img src="College Reg SC.png" alt="College Registration System screenshot">
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card">
+            <div class="card__top">
+              <h3 class="card__title">Habit Tracker PWA</h3>
+              <p class="card__desc">
+                Progressive Web App for habit tracking and productivity. Responsive UI, task tracking, and database-driven CRUD.
+              </p>
+
+              <ul class="bullets">
+                <li>Habit/task tracking flow</li>
+                <li>Responsive layout</li>
+                <li>CRUD integration</li>
+              </ul>
+
+              <div class="chips">
+                <span class="chip">JavaScript</span>
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+                <span class="chip">MySQL</span>
+              </div>
+
+              <div class="actions">
+                <!-- Replace with correct repo link -->
+                <a class="action" target="_blank" rel="noopener" href="#">GitHub Repo</a>
+              </div>
+            </div>
+
+            <div class="card__media card__media--placeholder">
+              <div class="placeholder">
+                Add screenshot<br><span>(export a clean UI shot)</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card">
+            <div class="card__top">
+              <h3 class="card__title">Booked Solid — Bookstore Web App</h3>
+              <p class="card__desc">
+                Full-stack bookstore application with product listings and cart functionality.
+                Built to demonstrate front-end polish + database integration.
+              </p>
+
+              <ul class="bullets">
+                <li>Product listing + cart flow</li>
+                <li>Database-backed structure</li>
+                <li>Clean, scalable UI layout</li>
+              </ul>
+
+              <div class="chips">
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">SQL</span>
+              </div>
+
+              <div class="actions">
+                <a class="action" target="_blank" rel="noopener" href="https://github.com/JakeHEdge/booked-solid-pwa">GitHub Repo</a>
+              </div>
+            </div>
+
+            <div class="card__media card__media--placeholder">
+              <div class="placeholder">
+                Add screenshot<br><span>(home page / cart page)</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section--thin">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Skills</h2>
+          <p class="section__desc">Practical stack — focused on building and shipping.</p>
+        </div>
+
+        <div class="skills">
+          <div class="skill">
+            <div class="skill__title">Languages</div>
+            <div class="chips">
+              <span class="chip">JavaScript</span>
+              <span class="chip">Java</span>
+              <span class="chip">Python</span>
+              <span class="chip">SQL</span>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill__title">Data / BI</div>
+            <div class="chips">
+              <span class="chip">Power BI</span>
+              <span class="chip">DAX</span>
+              <span class="chip">Data Modelling</span>
+              <span class="chip">KPI Design</span>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill__title">Tools</div>
+            <div class="chips">
+              <span class="chip">Git</span>
+              <span class="chip">GitHub</span>
+              <span class="chip">MySQL</span>
+              <span class="chip">VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--thin">
+      <div class="container">
+        <div class="contact">
+          <div>
+            <h2 class="section__title">Contact</h2>
+            <p class="section__desc">If you want someone who ships clean work consistently — I’m available.</p>
+          </div>
+
+          <div class="contact__actions">
+            <a class="btn btn--primary" href="mailto:jakehedge04@gmail.com">Email</a>
+            <a class="btn btn--ghost" target="_blank" rel="noopener" href="https://github.com/JakeHEdge">GitHub</a>
+            <a class="btn btn--ghost" target="_blank" rel="noopener" href="https://www.linkedin.com/in/jake-edge-8b0589268/">LinkedIn</a>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <span>© <span id="year"></span> Jake Harry Edge</span>
+          <span class="footer__muted">Built with discipline.</span>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
